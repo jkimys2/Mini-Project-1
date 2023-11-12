@@ -12,24 +12,44 @@
 
     <header>
         <nav>
-            <ul>
-                <li><a href="github.com/jkimys2">Github</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="jkimys2@gmail.com">Contact</a></li>
+            <ul id="nav">
+                <li id="header"><a href="github.com/jkimys2">Github</a></li>
+                <li id="header"><a href="#">Portfolio</a></li>
+                <li id="header"><a href="#contact">Contact</a></li>
             </ul>
         </nav>
-        <h1>My New Website</h1>
     </header>
     
     <main>
-        <section>
+        <h1>My New Website</h1>
+        <figure>
             <img src="./assets/image-1.png" alt="coming soon image">
-        </section>
-        
-        <section>
-            <h2>"Have courage and be kind."</h2>
-        </section>
-        <footer></footer>
+            <figcaption class="text-center"> Have courage and be kind.</figcaption>
+        </figure>
     </main>
+      
+    <section>
+        <h2 class="text-center">Contact Me</h2>
+        <form>
+            <ul>
+                <li>
+                    <label class="text-center" for="name">Name:</label>
+                    <input type="text">
+                </li>
+                <li>
+                    <label class="text-center" for="email">Email:</label>
+                    <input type="text">
+                </li>
+            </ul>
+            <div class="text-center">
+                <button type="submit">SEND</button>
+            </div>
+        </form>
+
+    </section>
+
+    <footer>
+
+    </footer>
 </body>
 </html>

@@ -1,11 +1,17 @@
+
 body {
     position: relative;
     margin: 0;
     padding: 0;
+    font-family: "cambria", "Comic Sans MS", "sans-serif";
+    background-color: palegoldenrod;
 }
 
-main {
 
+ul{
+    text-align: right;
+    background-color:cornflowerblue;
+    line-height: 30px;
 }
 
 
@@ -13,8 +19,8 @@ li {
     display: inline;
     list-style: none;
     font-size: 20px;
+    background-color: cornflowerblue;
 }
-
 
 h1,
 h2 {
